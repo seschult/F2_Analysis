@@ -1,0 +1,18 @@
+ !* 
+ !* Swimming set from XFITTER for the HERAverager
+ &Data
+   Name = 'Swimming' 
+   NData =            5
+   NColumn = 5
+   ColumnType = 4*'Bin','Sigma' 
+   ColumnName = 'reaction index', 'x', 'Q2', 'y ', 'reduced x-section ' 
+                                                     
+   IndexDataset = 666
+   Reaction = 'NC e+-p' 
+                                                     
+ &END
+   615 0.24000E+02 0.50000E-01 0.00000E+00 0.42183E+00
+   615 0.24000E+02 0.15000E+00 0.00000E+00 0.38576E+00
+   615 0.24000E+02 0.30000E+00 0.00000E+00 0.36472E+00
+   615 0.24000E+02 0.50000E+00 0.00000E+00 0.54844E+00
+   615 0.24000E+02 0.75000E+00 0.00000E+00 0.14353E+00

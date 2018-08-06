@@ -1,0 +1,42 @@
+\documentclass[14pt]{report}
+\usepackage{extsizes}
+\usepackage[paperwidth=21cm,paperheight=21cm,left=0.2cm,right=0.2cm,top=0.2cm,bottom=0.2cm]{geometry}
+\usepackage{pxfonts}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\definecolor{lightgray}{gray}{0.85}
+\usepackage{color}
+\begin{document}
+\begin{table}
+  \begin{center}
+  \rowcolors{2}{lightgray}{}
+  \resizebox*{\textwidth}{!}{
+    \begin{tabular}{lp{4.45cm}}
+      \toprule
+ Parameter   & output  \\ 
+      \midrule
+  'Bg' & $1 \pm 19$  \\ 
+  'Cg' & $-0.983 \pm 0.096$  \\ 
+  'Aprig' & $1.4 \pm 9.9$  \\ 
+  'Bprig' & $-0.86 \pm 0.85$  \\ 
+  'Cprig' & $-0 \pm 28$  \\ 
+  'Dprig' & $32 \pm 190$  \\ 
+  'AUbar' & $0.52 \pm 0.75$  \\ 
+  'BDbar' & $-0.28 \pm 0.67$  \\ 
+  'CDbar' & $35 \pm 863$  \\ 
+  'alphas' & $\textcolor{blue}{ 0.1180 }$  \\ 
+  'fs' & $\textcolor{blue}{ 0.4000 }$  \\ 
+      \midrule
+  \rowcolor{white}
+ Fit status   & \textcolor{red}{ not-a-fit }  \\ 
+  \rowcolor{white}
+ Uncertainties   & not-a-fit  \\ 
+      \bottomrule
+    \end{tabular}
+  }
+  \end{center}
+\end{table}
+
+\end{document}

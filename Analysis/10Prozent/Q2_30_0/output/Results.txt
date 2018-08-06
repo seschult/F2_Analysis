@@ -1,0 +1,12 @@
+ First iteration    283.18992083351975               -5  -56.637984166703951     
+After minimisation       2.05    -5    -0.409
+
+  Partial chi2s 
+Dataset    1      1.42( -0.35)     4  Starting scale only                             
+
+ Correlated Chi2   0.98241697324056620     
+ Log penalty Chi2  -0.35382942670637063     
+ Systematic shifts            1
+  
+                                Name          Shift   +/-    Error          Type
+    1  sys                                    0.9912   +/-   0.2934        :N:M:D

@@ -1,0 +1,57 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "LEP_OPAL_Ackerstaff_f2had_1997_3" 
+  Reaction = "NC e+-p"
+  NData =   21
+  NColumn =   6
+  ColumnType = 2*"Bin","Sigma", 3*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","sys","sys"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   403
+  Percent = 3*true
+&End 
+
+
+&PlotDesc
+   PlotN = 6
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 6.0, 11.0, 20.0, 40.0, 100.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:OPAL1997_3 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 9.0 @Xlog'
+   PlotOptions(2)  = 'Experiment:OPAL1997_3 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 14.5 @Xlog'
+   PlotOptions(3)  = 'Experiment:OPAL1997_3 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 11.0 @Xlog'
+   PlotOptions(4)  = 'Experiment:OPAL1997_3 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 30.0 @Xlog'
+   PlotOptions(5)  = 'Experiment:OPAL1997_3 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 59.0 @Xlog'
+   PlotOptions(6)  = 'Experiment:OPAL1997_3 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 41.0 @Xlog'
+
+&End
+*        Q2           x     F2    stat   sys1    sys2 
+9.0		0.060000000000000005	0.33	0.03	+0.06	-0.06	
+9.0		0.175	0.29	0.04	+0.04	-0.05	
+9.0		0.425	0.39	0.08	+0.3	-0.1	
+14.5	0.060000000000000005	0.37	0.03	+0.16	-0.01	
+14.5	0.175	0.42	0.05	+0.04	-0.14	
+14.5	0.425	0.39	0.06	+0.1	-0.11	
+11.0	0.060000000000000005	0.34	0.02	+0.11	-0.02
+11.0	0.175	0.36	0.03	+0.02	-0.1
+11.0	0.425	0.39	0.04	+0.12	-0.04
+30.0	0.07500000000000001		0.32	0.04	+0.11	-0.02	
+30.0	0.22499999999999998		0.52	0.05	+0.06	-0.13	
+30.0	0.475	0.41	0.09	+0.2	-0.05	
+30.0	0.7		0.46	0.15	+0.39	-0.14	
+59.0	0.07500000000000001		0.37	0.06	+0.28	-0.07	
+59.0	0.22499999999999998		0.44	0.07	+0.08	-0.07	
+59.0	0.475	0.48	0.09	+0.16	-0.1	
+59.0	0.7		0.51	0.14	+0.48	-0.02	
+41.0	0.07500000000000001		0.33	0.03	+0.15	-0.03
+41.0	0.22499999999999998		0.49	0.04	+0.02	-0.12
+41.0	0.475	0.43	0.07	+0.15	-0.05
+41.0	0.7		0.54	0.11	+0.41	-0.11	
+	
+	
+	
+	

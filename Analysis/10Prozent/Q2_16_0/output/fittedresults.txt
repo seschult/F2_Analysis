@@ -1,0 +1,8 @@
+           1
+        4041
+ Starting scale only                                                             
+Plot1@Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 16.0 @Xlog
+ Q2          x           dummy          data      +- uncor     +- tot     th orig         th mod   therr+         therr-     pull    iset       iplot
+ 0.16000E+02 0.85000E-01 0.00000E+00 0.60000E+00 0.87052E-01 0.12225E+00 0.58715E+00 0.59798E+00 0.00000E+00 0.00000E+00 0.23247E-01 4041   1/0.85000E-01
+ 0.16000E+02 0.24000E+00 0.00000E+00 0.56000E+00 0.97858E-01 0.11402E+00 0.54715E+00 0.55436E+00 0.00000E+00 0.00000E+00 0.57666E-01 4041   1/0.24000E+00
+ 0.16000E+02 0.55500E+00 0.00000E+00 0.46000E+00 0.15869E+00 0.18554E+00 0.42549E+00 0.43572E+00 0.00000E+00 0.00000E+00 0.15298E+00 4041   1/0.55500E+00

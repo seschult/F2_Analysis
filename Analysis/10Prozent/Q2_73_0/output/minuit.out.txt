@@ -1,0 +1,259 @@
+ ***************************************************************************
+  MINUIT RELEASE 96.03  INITIALIZED.   DIMENSIONS 200/ 50  EPSMAC=  0.89E-15
+ ***************************************************************************
+                          MINUIT DATA BLOCK NO.   1
+ ***************************************************************************
+ new  14p HERAPDF                                  
+ ******************************************************************************
+
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     2 'Bg        '   0.10000      0.10000         no limits
+     3 'Cg        '    5.0000       1.0000         no limits
+     7 'Aprig     '    1.0000       1.0000         no limits
+     8 'Bprig     '    1.0000       1.0000         no limits
+     9 'Cprig     '    25.000       1.0000         no limits
+    10 'Dprig     '    25.000       1.0000         no limits
+    11 'Auv       '   0.10000E-19  constant
+    12 'Buv       '   0.10000E-19  constant
+    21 'Adv       '   0.10000E-19  constant
+    22 'Bdv       '   0.10000E-19  constant
+    41 'AUbar     '   0.10000      0.10000         no limits
+    42 'BDbar     '   0.10000      0.10000         no limits
+    43 'CDbar     '    10.000       1.0000         no limits
+    ***************************************************************************
+
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+   101 'alphas    '   0.11800      constant
+   102 'fs        '   0.40000      constant
+   103 'fcharm    '    0.0000      constant
+
+ MINUIT: FIRST CALL TO USER FUNCTION, WITH IFLAG=1
+
+ FCN=   755.9885     FROM PARAMETR  STATUS=RESET          2 CALLS        2 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+
+  EXT PARAMETER               CURRENT GUESS      PHYSICAL LIMITS       
+  NO.   NAME        VALUE          ERROR       NEGATIVE      POSITIVE  
+   2    Bg         0.10000       0.10000    
+   3    Cg          5.0000        1.0000    
+   7    Aprig       1.0000        1.0000    
+   8    Bprig       1.0000        1.0000    
+   9    Cprig       25.000        1.0000    
+  10    Dprig       25.000        1.0000    
+  11    Auv        0.10000E-19   constant   
+  12    Buv        0.10000E-19   constant   
+  21    Adv        0.10000E-19   constant   
+  22    Bdv        0.10000E-19   constant   
+  41    AUbar      0.10000       0.10000    
+  42    BDbar      0.10000       0.10000    
+  43    CDbar       10.000        1.0000    
+ 101    alphas     0.11800       constant   
+ 102    fs         0.40000       constant   
+ 103    fcharm      0.0000       constant   
+ **********
+ **    1 ** 
+ **********
+           BLANK COMMAND IGNORED.
+ **********
+ **    2 ***CALL FCN    3.000    
+ **********
+           UNKNOWN COMMAND IGNORED:*CALL FCN 
+ **********
+ **    3 **MIGRAD   0.2000E+06
+ **********
+ START MIGRAD MINIMIZATION.  STRATEGY 1.  CONVERGENCE WHEN EDM .LT. 0.10E-03
+
+ FCN=   62.77478     FROM MIGRAD    STATUS=INITIATE     120 CALLS      122 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME        VALUE          ERROR          SIZE      DERIVATIVE 
+   2    Bg         0.10000       0.10000        0.0000       -1.7732    
+   3    Cg        -0.12650        1.0000       -5.1265        59.594    
+   7    Aprig       1.0000        1.0000        0.0000        36.892    
+   8    Bprig     -0.87827        1.0000        0.0000       -437.23    
+   9    Cprig       25.000        1.0000        0.0000      -0.17566    
+  10    Dprig       25.000        1.0000        0.0000        1.6239    
+  11    Auv        0.10000E-19   constant   
+  12    Buv        0.10000E-19   constant   
+  21    Adv        0.10000E-19   constant   
+  22    Bdv        0.10000E-19   constant   
+  41    AUbar      0.10000       0.10000        0.0000       -40.406    
+  42    BDbar      0.10000       0.10000        0.0000      -0.22686    
+  43    CDbar       10.000        1.0000        0.0000      -0.18881E-02
+ 101    alphas     0.11800       constant   
+ 102    fs         0.40000       constant   
+ 103    fcharm      0.0000       constant   
+ MINUIT WARNING IN MIGRAD  
+ ============== Negative diagonal element  1 in Error Matrix
+ MINUIT WARNING IN MIGRAD  
+ ============== Negative diagonal element  2 in Error Matrix
+ MINUIT WARNING IN MIGRAD  
+ ============== Negative diagonal element  7 in Error Matrix
+ MINUIT WARNING IN MIGRAD  
+ ============== Negative diagonal element  8 in Error Matrix
+ MINUIT WARNING IN MIGRAD  
+ ==============     0.14E+01 added to diagonal of error matrix
+ MIGRAD FAILS TO FIND IMPROVEMENT
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element  2 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element  9 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ==============     0.10E+01 added to diagonal of error matrix
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -0.1465E+02  0.1887E+00  0.1000E+01  0.1000E+01  0.1000E+01  0.1000E+01
+         0.1000E+01  0.1805E+01  0.1665E+02
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING   14.662     TO DIAGONAL.
+
+ FCN=   2.640549     FROM HESSE     STATUS=NOT POSDEF    81 CALLS      709 TOTAL
+                     EDM=  0.22E-06    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME        VALUE          ERROR          SIZE      DERIVATIVE 
+   2    Bg         -1.0239        1.3124       0.16058       0.89907E-06
+   3    Cg        -0.88758       0.57698       0.27179      -0.38576E-05
+   7    Aprig      0.46886        4.5982        1.7693       0.49756E-05
+   8    Bprig     -0.85658        6.2003       0.60828E-01  -0.25721E-04
+   9    Cprig       39.360       0.35737        5.3839      -0.86192E-08
+  10    Dprig       18.651       0.36026        5.3899       0.89494E-07
+  11    Auv        0.10000E-19   constant   
+  12    Buv        0.10000E-19   constant   
+  21    Adv        0.10000E-19   constant   
+  22    Bdv        0.10000E-19   constant   
+  41    AUbar       1.2005       0.60480E-01   0.14199E-03   0.90379E-02
+  42    BDbar      0.80425E-02   0.42677E-01   0.98562E-04  -0.75994E-02
+  43    CDbar       57.338       0.35735        5.3784       0.29236E-08
+ 101    alphas     0.11800       constant   
+ 102    fs         0.40000       constant   
+ 103    fcharm      0.0000       constant   
+
+ MIGRAD MINIMIZATION HAS CONVERGED.
+
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element  1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element  2 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element  9 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ==============     0.10E+01 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+
+ FCN=   2.640549     FROM MIGRAD    STATUS=CONVERGED    804 CALLS      806 TOTAL
+                     EDM=  0.45E-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME        VALUE          ERROR          SIZE      DERIVATIVE 
+   2    Bg         -1.0227        1.4142       0.22632E-03   0.90548E-06
+   3    Cg        -0.88799        1.4142       0.10872      -0.31617E-05
+   7    Aprig      0.46476        1.4142        1.7695       0.40621E-05
+   8    Bprig     -0.85105        1.4139       0.72887E-01  -0.20314E-04
+   9    Cprig       39.360        1.4142        5.3806      -0.72858E-08
+  10    Dprig       18.651        1.4142        5.3899       0.70947E-07
+  11    Auv        0.10000E-19   constant   
+  12    Buv        0.10000E-19   constant   
+  21    Adv        0.10000E-19   constant   
+  22    Bdv        0.10000E-19   constant   
+  41    AUbar       1.2004       0.26029       0.14262E-03   0.60338E-03
+  42    BDbar      0.80774E-02   0.18042       0.98550E-04   0.45109E-02
+  43    CDbar       57.338        1.4142        2.1514       0.28750E-08
+ 101    alphas     0.11800       constant   
+ 102    fs         0.40000       constant   
+ 103    fcharm      0.0000       constant   
+
+ EXTERNAL ERROR MATRIX.    NDIM=  50    NPAR=  9    ERR DEF=  1.00    
+  0.200E+01-0.624E-06-0.473E-05 0.174E-04 0.871E-08-0.866E-07-0.616E-05-0.190E-04-0.986E-09
+ -0.624E-06 0.200E+01 0.204E-04-0.575E-04-0.296E-07 0.315E-06 0.777E-04 0.397E-05 0.335E-08
+ -0.473E-05 0.204E-04 0.200E+01 0.621E-04 0.339E-07-0.516E-06-0.610E-04 0.610E-04-0.150E-11
+  0.174E-04-0.575E-04 0.621E-04 0.200E+01-0.452E-07 0.132E-05 0.194E-03-0.194E-03 0.477E-11
+  0.871E-08-0.296E-07 0.339E-07-0.452E-07 0.200E+01 0.688E-09 0.987E-07-0.975E-07 0.265E-14
+ -0.866E-07 0.315E-06-0.516E-06 0.132E-05 0.688E-09 0.200E+01-0.105E-05 0.101E-05-0.780E-10
+ -0.616E-05 0.777E-04-0.610E-04 0.194E-03 0.987E-07-0.105E-05 0.678E-01 0.381E-01-0.172E-07
+ -0.190E-04 0.397E-05 0.610E-04-0.194E-03-0.975E-07 0.101E-05 0.381E-01 0.326E-01-0.112E-08
+ -0.986E-09 0.335E-08-0.150E-11 0.477E-11 0.265E-14-0.780E-10-0.172E-07-0.112E-08 0.200E+01
+
+ PARAMETER  CORRELATION COEFFICIENTS
+       NO.  GLOBAL     2     3     7     8     9    10    41    42    43
+        2  0.00011  1.000-0.000-0.000 0.000 0.000-0.000-0.000-0.000-0.000
+        3  0.00034 -0.000 1.000 0.000-0.000-0.000 0.000 0.000 0.000 0.000
+        7  0.00066 -0.000 0.000 1.000 0.000 0.000-0.000-0.000 0.000-0.000
+        8  0.00210  0.000-0.000 0.000 1.000-0.000 0.000 0.001-0.001 0.000
+        9  0.00000  0.000-0.000 0.000-0.000 1.000 0.000 0.000-0.000 0.000
+       10  0.00001 -0.000 0.000-0.000 0.000 0.000 1.000-0.000 0.000-0.000
+       41  0.81130 -0.000 0.000-0.000 0.001 0.000-0.000 1.000 0.811-0.000
+       42  0.81130 -0.000 0.000 0.000-0.001-0.000 0.000 0.811 1.000-0.000
+       43  0.00000 -0.000 0.000-0.000 0.000 0.000-0.000-0.000-0.000 1.000
+ **********
+ **    4 **HESSE 
+ **********
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element  1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element  9 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ==============     0.10E+01 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+
+ FCN=   2.640549     FROM HESSE     STATUS=OK            97 CALLS      903 TOTAL
+                     EDM=  0.45E-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME        VALUE          ERROR       STEP SIZE       VALUE   
+   2    Bg         -1.0227        1.4142       0.45264E-03   -1.0227    
+   3    Cg        -0.88799       0.12270        4.5564      -0.88799    
+   7    Aprig      0.46476        1.4142       0.35389       0.46476    
+   8    Bprig     -0.85105        1.4140       0.29155E-01  -0.85105    
+   9    Cprig       39.360       0.16063-132    107.61        39.360    
+  10    Dprig       18.651        1.4142        1.0780        18.651    
+  11    Auv        0.10000E-19   constant   
+  12    Buv        0.10000E-19   constant   
+  21    Adv        0.10000E-19   constant   
+  22    Bdv        0.10000E-19   constant   
+  41    AUbar       1.2004       0.26032       0.28525E-04    1.2004    
+  42    BDbar      0.80774E-02   0.18044       0.19710E-04   0.80774E-02
+  43    CDbar       57.338        1.4142       0.43027        57.338    
+ 101    alphas     0.11800       constant   
+ 102    fs         0.40000       constant   
+ 103    fcharm      0.0000       constant   
+
+ EXTERNAL ERROR MATRIX.    NDIM=  50    NPAR=  9    ERR DEF=  1.00    
+  0.200E+01 0.234E-08-0.527E-05 0.222E-04 0.535-274-0.870E-07-0.612E-05-0.190E-04-0.993E-09
+  0.234E-08 0.151E-01 0.153E-07-0.609E-07-0.147-276 0.260E-09 0.352E-07-0.308E-07 0.282E-11
+ -0.527E-05 0.153E-07 0.200E+01 0.729E-04 0.177-273-0.440E-06-0.611E-04 0.609E-04-0.166E-11
+  0.222E-04-0.609E-07 0.729E-04 0.200E+01-0.342-273 0.171E-05 0.250E-03-0.249E-03 0.694E-11
+  0.535-274-0.147-276 0.177-273-0.342-273 0.258-265 0.414-275 0.603-273-0.600-273 0.176-280
+ -0.870E-07 0.260E-09-0.440E-06 0.171E-05 0.414-275 0.200E+01-0.105E-05 0.101E-05-0.797E-10
+ -0.612E-05 0.352E-07-0.611E-04 0.250E-03 0.603-273-0.105E-05 0.678E-01 0.381E-01-0.191E-07
+ -0.190E-04-0.308E-07 0.609E-04-0.249E-03-0.600-273 0.101E-05 0.381E-01 0.326E-01-0.398E-08
+ -0.993E-09 0.282E-11-0.166E-11 0.694E-11 0.176-280-0.797E-10-0.191E-07-0.398E-08 0.200E+01
+
+ PARAMETER  CORRELATION COEFFICIENTS
+       NO.  GLOBAL     2     3     7     8     9    10    41    42    43
+        2  0.00011  1.000 0.000-0.000 0.000 0.000-0.000-0.000-0.000-0.000
+        3  0.00000  0.000 1.000 0.000-0.000-0.000 0.000 0.000-0.000 0.000
+        7  0.00066 -0.000 0.000 1.000 0.000 0.000-0.000-0.000 0.000-0.000
+        8  0.00270  0.000-0.000 0.000 1.000-0.000 0.000 0.001-0.001 0.000
+        9  0.00000  0.000-0.000 0.000-0.000   Inf 0.000 0.000-0.000 0.000
+       10  0.00001 -0.000 0.000-0.000 0.000 0.000 1.000-0.000 0.000-0.000
+       41  0.81134 -0.000 0.000-0.000 0.001 0.000-0.000 1.000 0.811-0.000
+       42  0.81134 -0.000-0.000 0.000-0.001-0.000 0.000 0.811 1.000-0.000
+       43  0.00000 -0.000 0.000-0.000 0.000 0.000-0.000-0.000-0.000 1.000
+ **********
+ **    5 **SET PRINT    3.000    
+ **********
+ **********
+ **    6 ** 
+ **********
+           BLANK COMMAND IGNORED.
+ **********
+ **    7 **RETURN 
+ **********
+
+ CALL TO USER FUNCTION WITH IFLAG = 3
+
+ ..........MINUIT TERMINATED AND RETURNS TO USER PROGRAM.            

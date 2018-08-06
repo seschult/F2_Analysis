@@ -1,0 +1,43 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "LEP_ALEPH_BARATE_f2had_1999" 
+  Reaction = "NC e+-p"
+  NData =   11
+  NColumn =   6
+  ColumnType = 2*"Bin","Sigma", 3*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","sys1","sys2"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   415
+  Percent = 3*true
+&End 
+
+
+&PlotDesc
+   PlotN = 3
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 9.9, 20.7, 284.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:ALEPH1999 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 9.9 @Xlog'
+   PlotOptions(2)  = 'Experiment:ALEPH1999 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 20.7 @Xlog'
+   PlotOptions(3)  = 'Experiment:ALEPH1999 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 248.0 @Xlog'
+
+
+&End
+*        Q2           x     F2    stat   sys1    sys2 
+284.0	0.171	0.65	0.1		+0.09	-0.09
+284.0	0.5		0.7		0.16	+0.19	-0.19
+284.0	0.8		1.28	0.26	+0.26	-0.26
+20.7	0.055	0.36	0.02	+0.05	-0.05
+20.7	0.19	0.34	0.03	+0.11	-0.11
+20.7	0.38	0.56	0.05	+0.1	-0.1
+20.7	0.63	0.45	0.11	+0.05	-0.05
+9.9		0.039	0.3		0.02	+0.02	-0.02
+9.9		0.14	0.4		0.03	+0.07	-0.07
+9.9		0.28	0.41	0.05	+0.09	-0.09
+9.9		0.54	0.27	0.13	+0.09	-0.09
+
+
