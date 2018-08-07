@@ -5,7 +5,7 @@
 &Data 
   Name = "Starting scale only" 
   Reaction = "NC e+-p"
-  NData =   3
+  NData =   4
   NColumn =   6
   ColumnType = 2*"Bin","Sigma", 3*"Error"
   ColumnName = "Q2","x","Sigma", "stat","sys","sys"
@@ -30,3 +30,4 @@
 7.5		0.046	0.28	0.02	0.03	-0.10
 7.5		0.187	0.32	0.02	0.08	-0.13
 7.5		0.649	0.38	0.04	0.06	-0.21
+7.5 	0.35	0.36	0.02	+0.06	-0.12

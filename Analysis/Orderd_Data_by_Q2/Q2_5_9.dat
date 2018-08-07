@@ -27,7 +27,7 @@
    PlotOptions(1)  = 'Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 5.9/6.0 @Xlog'
 &End
 
-5.9 	0.046	0.224	0.018
-5.9		0.187	0.352	0.030
-5.9		0.466	0.348	0.090
+5.9 	0.046	0.224	0.026	
+5.9		0.187	0.352	0.037	
+5.9		0.466	0.348	0.132	
 6.0		0.600	0.290	0.050
