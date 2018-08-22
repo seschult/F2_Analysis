@@ -6,9 +6,9 @@
   Name = "Starting scale only" 
   Reaction = "NC e+-p"
   NData =   4
-  NColumn =   6
+  NColumn =   7
   ColumnType = 2*"Bin","Sigma", 3*"Error"
-  ColumnName = "Q2","x","Sigma", "stat","sys","sys"
+  ColumnName = "Q2","x","Sigma", "stat","stat","stat"
   NInfo =  4
   CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
   DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
@@ -27,7 +27,7 @@
    PlotOptions(1)  = 'Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 15.3 @Xlog'
 &End
 
-15.3	0.055	0.37	0.02	+0.03	-0.03	+0.00	-0.00	
-15.3	0.150	0.42	0.04	+0.01	-0.01	+0.02	-0.02	
-15.3	0.250	0.42	0.05	+0.05	-0.05	+0.05	-0.05	
-15.3	0.400	0.35	0.05	+0.08	-0.08	+0.13	-0.13	
+15.3	0.055	0.37	0.02	+0.03	-0.03	+0.00		
+15.3	0.150	0.42	0.04	+0.01	-0.01	-0.02		
+15.3	0.250	0.42	0.05	+0.05	-0.05	+0.05		
+15.3	0.400	0.35	0.05	+0.08	-0.08	+0.13		

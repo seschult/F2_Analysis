@@ -9,7 +9,7 @@
   NData =   3
   NColumn =   6
   ColumnType = 2*"Bin","Sigma", 3*"Error"
-  ColumnName = "Q2","x","Sigma", "stat", "sys","sys",
+  ColumnName = "Q2","x","Sigma", "stat", "stat","stat",
   NInfo =  4
   CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
   DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
@@ -28,6 +28,5 @@
    PlotOptions(1)  = 'Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 225.0 @Xlog'
 &End
 
-225.0	0.515	1.01	0.25	0.10	-0.10
 225.0	0.550	1.18	0.22	0.11	-0.11
-225.0	0.350	0.91	0.30	0.09	-0.09
+

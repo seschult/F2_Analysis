@@ -7,7 +7,7 @@
   NData =   5
   NColumn =   6
   ColumnType = 2*"Bin","Sigma", 3*"Error"
-  ColumnName = "Q2","x","Sigma", "stat","sys1","sys2"
+  ColumnName = "Q2","x","Sigma", "stat","stat","stat"
   NInfo =  4
   CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
   DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
