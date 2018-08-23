@@ -4,7 +4,7 @@
 &Data 
   Name = "DESY_PETRA_JADE_Bartl_1983" 
   Reaction = "NC e+-p"
-  NData =   5
+  NData =   8
   NColumn =   4
   ColumnType = 2*"Bin","Sigma", 1*"Error"
   ColumnName = "Q2","x","Sigma", "stat"
